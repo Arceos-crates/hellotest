@@ -35,7 +35,7 @@ LOG ?= warn
 V ?=
 
 # App options
-A ?= apps/net/httpclient
+A ?= apps/helloworld
 APP ?= $(A)
 FEATURES ?=
 APP_FEATURES ?=

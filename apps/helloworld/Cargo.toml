@@ -8,3 +8,4 @@ authors = ["Yuekai Jia <equation618@gmail.com>"]
 
 [dependencies]
 axstd = { git = "https://github.com/Arceos-crates/axstd.git", optional = true }
+axlog = { git = "https://github.com/Arceos-crates/axlog.git"}

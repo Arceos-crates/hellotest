@@ -35,4 +35,4 @@ jobs:
     - name: Run app tests
       run: |
         make disk_img
-        make test ARCH=${{ matrix.arch }}
+        CURRENT_DIR=`pwd` make test ARCH=${{ matrix.arch }}
